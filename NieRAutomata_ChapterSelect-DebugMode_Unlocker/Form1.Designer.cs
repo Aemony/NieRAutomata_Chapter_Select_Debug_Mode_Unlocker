@@ -36,12 +36,13 @@
             this.cbChapterSelectDebugRoom = new System.Windows.Forms.CheckBox();
             this.cbUnknown1 = new System.Windows.Forms.CheckBox();
             this.cbUnknown2 = new System.Windows.Forms.CheckBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonSave
             // 
             this.buttonSave.Enabled = false;
-            this.buttonSave.Location = new System.Drawing.Point(269, 153);
+            this.buttonSave.Location = new System.Drawing.Point(270, 148);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(75, 23);
             this.buttonSave.TabIndex = 8;
@@ -124,11 +125,23 @@
             this.cbUnknown2.Text = "Unknown #2";
             this.cbUnknown2.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Location = new System.Drawing.Point(8, 139);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(213, 32);
+            this.textBox1.TabIndex = 9;
+            this.textBox1.Text = "Enable all four states to be on the safe side, as this is what ending C/D does.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(357, 188);
+            this.ClientSize = new System.Drawing.Size(357, 181);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.cbUnknown2);
             this.Controls.Add(this.cbUnknown1);
             this.Controls.Add(this.cbChapterSelectDebugRoom);
@@ -154,6 +167,7 @@
         private System.Windows.Forms.CheckBox cbChapterSelectDebugRoom;
         private System.Windows.Forms.CheckBox cbUnknown1;
         private System.Windows.Forms.CheckBox cbUnknown2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
