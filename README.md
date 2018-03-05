@@ -3,6 +3,8 @@ Allows users to unlock Chapter Select and Debug Menu/Room by editing their save 
 
 **Make backup of your saves and use at own risk!**
 
+![Screenshot of the editor](screenshot.png "Screenshot of the editor")
+
 ## Usage
 
 1. Download the latest release from the [Releases](https://github.com/Idearum/NieRAutomata_Chapter_Select_Debug_Mode_Unlocker/releases) tab.
