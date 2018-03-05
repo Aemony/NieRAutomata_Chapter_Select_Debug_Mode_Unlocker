@@ -15,17 +15,19 @@ Allows users to unlock Chapter Select and Debug Menu/Room by editing their save 
 
 ## About
 
-A single byte stores four different states using half its bits.
+A single byte stores different flags (1 = enabled, 0 = disabled) used for different things. A finished save will have all of the last four flags enabled, meaning 0000 1111.
 
 ```
 0000 0001
-        ^-Unknown state #1.
+        ^-Unknown flag #1.
 0000 0010
-       ^- Unknown state #2.
+       ^- Unknown flag #2.
 0000 0100
       ^- Enables Chapter Select and Debug Room
 0000 1000
      ^- Enables the Debug Menu (RT + Back)
-```
 
-A finished save will have all of these states enabled, meaning 0000 1111.
+0010 0000
+  ^- Out of scope for this tool, but this flag seems to be set in-between first-time ending C/D gets unlocked. It gets reset on next save. Notification about Resistance Camp Achievement Seller, maybe?
+  
+```
