@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NieRAutomata_ChapterSelect-DebugMode_Unlocker", "NieRAutomata_ChapterSelect-DebugMode_Unlocker\NieRAutomata_ChapterSelect-DebugMode_Unlocker.csproj", "{FCAB31E4-1E47-40CB-B7CB-9273D47DF37C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCAB31E4-1E47-40CB-B7CB-9273D47DF37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCAB31E4-1E47-40CB-B7CB-9273D47DF37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCAB31E4-1E47-40CB-B7CB-9273D47DF37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCAB31E4-1E47-40CB-B7CB-9273D47DF37C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60491708-840B-467D-9ADC-E5AFCDA86A32}
+	EndGlobalSection
+EndGlobal
