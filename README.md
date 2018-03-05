@@ -15,6 +15,7 @@ Allows users to unlock Chapter Select and Debug Menu/Room by editing their save 
 
 A single byte stores four different states using half its bits.
 
+```
 0000 0001
         ^-Unknown state #1.
 0000 0010
@@ -23,5 +24,6 @@ A single byte stores four different states using half its bits.
       ^- Enables Chapter Select and Debug Room
 0000 1000
      ^- Enables the Debug Menu (RT + Back)
+```
 
 A finished save will have all of these states enabled, meaning 0000 1111.
